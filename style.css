@@ -1,20 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
 * {
+    margin-top: 1rem;
     padding: 0;
     margin: 0;
 }
 
 html {
-    background: rgb(217, 207, 207);
+    background: rgb(26, 25, 25);
     font-family: 'Roboto';
 }
 
 .post {
     margin: auto;
-    width: 70%;
-    background: rgb(224, 221, 221);
-    display: flex;
+    max-width: 540px;
+    background: rgb(250, 247, 247);
+
 }
 
 .post-header {
@@ -42,4 +43,29 @@ span {
 .fa-html5,
 .fa-ellipsis-vertical {
     font-size: 2rem;
+    margin-right: 14px;
+}
+
+div.post-img img {
+    width: 100%;
+    max-height: 80%;
+}
+
+.post-body {
+    padding: 2px;
+}
+
+.post-icon {
+    padding: 1rem;
+    display: flex;
+    gap: 0.75rem;
+    font-size: 1.5rem;
+}
+
+.icono-guardar {
+    margin-left: 69%;
+}
+
+.p {
+    margin-left: 5px;
 }
